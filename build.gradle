@@ -17,12 +17,12 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-    implementation 'org.springframework.boot:spring-boot-starter-data-rest'
-    implementation 'org.springframework.data:spring-data-rest-hal-browser'
-    implementation 'org.webjars:bootstrap:3.3.7'
+        implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+        implementation 'org.springframework.data:spring-data-rest-hal-browser'
+        implementation 'org.webjars:bootstrap:3.3.7'
 	implementation 'org.webjars:jquery:2.1.4'
 	implementation 'org.springdoc:springdoc-openapi-ui:1.4.1'
-	compile group: 'io.swagger.core.v3', name: 'swagger-gradle-plugin', version: '2.1.2'
+	//compile group: 'io.swagger.core.v3', name: 'swagger-gradle-plugin', version: '2.1.2'
 	
 	providedRuntime 'org.springframework.boot:spring-boot-devtools'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
